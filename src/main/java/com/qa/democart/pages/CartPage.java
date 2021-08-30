@@ -6,4 +6,8 @@ public class CartPage {
 
 	By cart=By.id("cart");
 	
+	public void addToCart() {
+		System.out.println("Add the product to the cart");
+	}
+	
 }
