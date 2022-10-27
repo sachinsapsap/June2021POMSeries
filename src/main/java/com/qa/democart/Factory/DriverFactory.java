@@ -120,9 +120,9 @@ public class DriverFactory {
 	
 	
 	public String getScreenshot() {
-		File srcFile=((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
-		String path=System.getProperty("user.dir")+"/screenshot/"+System.currentTimeMillis()+".png";
-		File destination=new File(path);
+		File srcFile=((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);//take srreenshot and store at temporary name
+		String path=System.getProperty("user.dir")+"/screenshot/"+System.currentTimeMillis()+".png";//create new path
+		File destination=new File(path);//move screenshot to new path
 		
 		try {
 			FileUtils.copyFile(srcFile, destination);

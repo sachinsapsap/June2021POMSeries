@@ -28,7 +28,7 @@ public class ResultsPage {
 		return elementUtil.doGetText(searchHeader);
 	}
 	
-	public int getSearchProductListCount() {
+	public int getSearchProductListsCount() {
 		return elementUtil.getElements(productResults).size();
 	}
 	

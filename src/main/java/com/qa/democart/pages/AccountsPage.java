@@ -1,6 +1,7 @@
 package com.qa.democart.pages;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.openqa.selenium.By;

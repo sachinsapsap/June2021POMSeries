@@ -17,9 +17,9 @@ public class LoginPage {
 	
 	private By emailId=By.id("input-email");
 	private By password=By.id("input-password");
-	private By loginBtn=By.xpath("//input[@value='Login']");
+	private By loginBtn=By.xpath("//button[@type='submit']");
 	private By forgotPwdLink=By.xpath("//div[@class='form-group']//a[text()='Forgotten Password']");
-	private By header=By.cssSelector("div#logo h1 a");
+	private By header=By.cssSelector("div#logo img");
 	private By registerLink=By.linkText("Register");
 	
 //	constructor:
